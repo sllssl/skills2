@@ -15,13 +15,15 @@ Guidance for managing day-to-day execution and tracking progress toward project 
   - Include issue link and acceptance criteria in PR description
   - Run automated tests and linting in CI before requesting review
   - Require at least one approval before merging (or team-defined policy)
+  - QA Engineer validates acceptance criteria before marking complete
 
 ## Quality & Testing
-- Unit tests for new logic
-- Integration tests where applicable
-- End-to-end smoke tests for critical flows before release
-- Security scanning in CI
-- Manual QA for feature acceptance when needed
+- Unit tests for new logic (Developers write and maintain)
+- Integration tests where applicable (Developers and QA Engineers collaborate)
+- End-to-end smoke tests for critical flows before release (QA Engineer leads)
+- Security scanning in CI (DevOps Engineer maintains)
+- Manual QA for feature acceptance when needed (QA Engineer executes)
+- Test automation maintained and expanded by QA Engineers and Developers
 
 ## Reporting & Metrics
 - Track velocity and burndown
